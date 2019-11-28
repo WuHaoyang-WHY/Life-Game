@@ -1,5 +1,5 @@
 # Life-Game
-I finished this game for my C++ course final project.
+Conway's Game of Life implemented in C++
 
 ## Game Rules
 Life is played on a grid of square cells--like a chess board but extending infinitely in every direction. A cell can be live or dead.   
@@ -12,7 +12,7 @@ To apply one step of the rules, we count the number of live neighbors for each c
 * In all other cases, a cell dies or remains dead (overcrowding or loneliness).
 
 ## UI
-Game UI is implemented with `easyX.  
+Game UI is implemented with EasyX lib.
 
 ## Realized Functions
 * Reset the seed land to blank.
